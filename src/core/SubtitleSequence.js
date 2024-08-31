@@ -1,12 +1,11 @@
 import {
   Sequence,
-  staticFile
 } from "remotion";
 import React from "react";
 class SubtitleSequence {
   constructor(path) {
     this.promise = new Promise((resolve, reject) => {
-      fetch(staticFile(path))
+      fetch(path)
         .then((res) => res.text())
         .then((text) => {
           this.text = text;
