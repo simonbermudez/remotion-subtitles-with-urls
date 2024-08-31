@@ -1,5 +1,5 @@
 {
-  "name": "remotion-subtitles-with-urls",
+  "name": "subtitles-with-urls",
   "version": "1.0.5",
   "description": "Create Animated Subtitles from .srt files in remotion.",
   "main": "dist/index.cjs.js",
